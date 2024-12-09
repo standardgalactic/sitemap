@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guide to Forbidden Knowledge</title>
     <meta property="og:image" content="http://raw.githubusercontent.com/standardgalactic/sitemap/refs/heads/main/forbidden-knowledge.png" />
-  <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/standardgalactic/sitemap/refs/heads/main/forbidden-knowledge.png" />
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/standardgalactic/sitemap/refs/heads/main/forbidden-knowledge.png" />
 
-  <style>
+    <style>
         @font-face {
             src: url('fonts/Sga-Regular.woff2') format('woff2'),
                  url('fonts/Sga-Regular.woff') format('woff'),
@@ -104,6 +104,16 @@
             font-size: 1em;
             margin: 20px 0;
         }
+
+        .flicker-effect {
+            animation: flicker 1s ease-in-out;
+        }
+
+        @keyframes flicker {
+            0% { background-color: red; color: yellow; }
+            50% { background-color: orange; color: black; }
+            100% { background-color: green; color: #00ff00; }
+        }
     </style>
 </head>
 <body>
@@ -197,8 +207,8 @@
             }
         });
 
-// Add website links dynamically 
-const directPages = [
+        // Add website links dynamically 
+        const directPages = [
     { name: "Abraxas", url: "https://standardgalactic.github.io/abraxas" },
     { name: "Alphabet", url: "https://standardgalactic.github.io/alphabet" },
 //    { name: "Android App", url: "https://standardgalactic.github.io/android-app" },
@@ -213,6 +223,7 @@ const directPages = [
 //    { name: "Cran GT", url: "https://standardgalactic.github.io/cran-gt" },
 //    { name: "Darwin Core", url: "https://standardgalactic.github.io/darwin-core" },
 //    { name: "Dataflow Synthesis", url: "https://standardgalactic.github.io/dataflow-synthesis" },
+    { name: "Dactyl Calculator", url: "https://standardgalactic.github.io/calculator" },
 //    { name: "Dynamite", url: "https://standardgalactic.github.io/dynamite" },
     { name: "Eclectric Oil", url: "https://standardgalactic.github.io/eclectric-oil" },
 //    { name: "Emacs Helm", url: "https://standardgalactic.github.io/emacs-helm" },
@@ -225,6 +236,7 @@ const directPages = [
 //    { name: "Julia Algorithms", url: "https://standardgalactic.github.io/Julia-algorithms" },
 //    { name: "Kiss", url: "https://standardgalactic.github.io/kiss" },
     { name: "Library", url: "https://standardgalactic.github.io/library" },
+    { name: "My Shortcuts", url: "https://standardgalactic.github.io/example" },
 //    { name: "Neuron Notes", url: "https://standardgalactic.github.io/neuron-notes" },
 //    { name: "Orgmode", url: "https://standardgalactic.github.io/orgmode" },
 //    { name: "Ptolemy2", url: "https://standardgalactic.github.io/ptolemy2" },
@@ -234,6 +246,7 @@ const directPages = [
 //    { name: "Rust Goblin", url: "https://standardgalactic.github.io/rust-goblin" },
 //    { name: "Sandbox", url: "https://standardgalactic.github.io/sandbox" },
 //    { name: "Scipy2013 Quantities", url: "https://standardgalactic.github.io/scipy2013-quantities" },
+    { name: "Secret Message", url: "https://standardgalactic.github.io/secret-message" },
 // not necessary    { name: "Site Map", url: "https://standardgalactic.github.io/sitemap" },
 //    { name: "Skouria", url: "https://standardgalactic.github.io/Skouria" },
 //    { name: "SpecialFunctions.jl", url: "https://standardgalactic.github.io/SpecialFunctions.jl" },
@@ -242,9 +255,11 @@ const directPages = [
 //    { name: "Terminux", url: "https://standardgalactic.github.io/terminux" },
 //    { name: "Textwrapper", url: "https://standardgalactic.github.io/textwrapper" },
 //    { name: "Tootorials", url: "https://standardgalactic.github.io/tootorials" },
+    { name: "The Rəd Pιll", url: "https://standardgalactic.github.io/transcript" },
     { name: "Unscannable Interfaces", url: "https://standardgalactic.github.io/unscannable-interfaces" },
-    { name: "Vectorspace", url: "https://standardgalactic.github.io/vectorspace" },
+    { name: "Vectorspace", url: "https://standardgalactic.github.io/vectorspace/#/galaxy/word2vec-wiki?cx=-3208&cy=-8930&cz=2898&lx=-0.2059&ly=-0.6299&lz=-0.5451&lw=0.5135&ml=300&s=1.75&l=1&v=d50_clean&_k=hvciiy" },
 //    { name: "Website Prototype", url: "https://standardgalactic.github.io/website-1" },
+    { name: "Xylomancy", url: "https://standardgalactic.github.io/xylomancy" },
 ];
 
 const mainRepoPages = [
@@ -255,7 +270,7 @@ const mainRepoPages = [
     { name: "Main Profile", url: "https://standardgalactic.github.io/main-profile.htm" },
     { name: "Additional Posts", url: "https://standardgalactic.github.io/additional-posts.html" },
 //    { name: "Do-it-yourself", url: "https://standardgalactic.github.io/exs.html" },
-    { name: "Old Index", url: "https://standardgalactic.github.io/old-index.html" },
+//    { name: "Old Index", url: "https://standardgalactic.github.io/old-index.html" },
     { name: "Timeline Photos", url: "https://standardgalactic.github.io/timeline-photos.html" },
     { name: "Books Read", url: "https://standardgalactic.github.io/books-read.html" },
     { name: "Flashcards", url: "https://standardgalactic.github.io/flashcards.html" },
@@ -266,10 +281,10 @@ const mainRepoPages = [
     { name: "Color Radio", url: "https://standardgalactic.github.io/color-radio.html" },
     { name: "Index", url: "https://standardgalactic.github.io/index.html" },
     { name: "SGA Converter", url: "https://standardgalactic.github.io/sga-converter.html" },
-    { name: "Wackamole", url: "https://standardgalactic.github.io/wam-index.html" },
+//    { name: "Wackamole", url: "https://standardgalactic.github.io/wam-index.html" },
     { name: "Circle of Fifths", url: "https://standardgalactic.github.io/circle-of-fifths.html" },
     { name: "Language Swap Test", url: "https://standardgalactic.github.io/language-swap-test.html" },
-    { name: "Skydome", url: "https://standardgalactic.github.io/skydome.html" },
+    { name: "Prismatic Macroscope", url: "https://standardgalactic.github.io/skydome.html" },
     { name: "Dactyl Clock", url: "https://standardgalactic.github.io/dactyl-clock.html" },
     { name: "Logic", url: "https://standardgalactic.github.io/logic.html" },
     { name: "Snowglobe Reading", url: "https://standardgalactic.github.io/snowglobe-reading.html" },
@@ -279,6 +294,7 @@ const mainRepoPages = [
 ];
         const directPagesList = document.getElementById('direct-pages');
         const mainRepoPagesList = document.getElementById('main-repo-pages');
+
 
         function addLinks(list, links) {
             links.forEach(link => {
@@ -290,6 +306,29 @@ const mainRepoPages = [
 
         addLinks(directPagesList, directPages);
         addLinks(mainRepoPagesList, mainRepoPages);
+
+        // Flicker effect for "The Rəd Pιll" button
+        document.addEventListener("DOMContentLoaded", function () {
+            let redPillButton = findRedPillButton();
+
+            if (redPillButton) {
+                setInterval(() => {
+                    redPillButton.classList.add('flicker-effect');
+                    setTimeout(() => redPillButton.classList.remove('flicker-effect'), 2500);
+                }, 20000);
+            }
+        });
+
+        function findRedPillButton() {
+            const links = document.querySelectorAll('#direct-pages a');
+            for (let link of links) {
+                if (link.textContent.trim() === "The Rəd Pιll") {
+                    return link;
+                }
+            }
+            return null;
+        }
     </script>
 </body>
 </html>
+
