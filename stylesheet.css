@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Sga';
+    src: url('Sga-Regular.woff2') format('woff2'),
+        url('Sga-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
