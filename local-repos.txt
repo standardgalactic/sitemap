@@ -1,0 +1,738 @@
+Directory: -backup/
+Antivenom/ is not a Git repository.
+--------------------
+Directory: Archive.org-Downloader/
+Remote URL: https://github.com/MiniGlome/Archive.org-Downloader.git
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: Centerfuge/
+Remote URL: https://github.com/standardgalactic/Centerfuge
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: CisterianNumbers/
+Remote URL: https://github.com/Mechachleopteryx/CistercianNumbers.git
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: Descent/
+Remote URL: https://github.com/Mechachleopteryx/descent.git
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Everlasting-Side-Quests_files/ is not a Git repository.
+--------------------
+Directory: Haplopraxis/
+Remote URL: https://github.com/standardgalactic/Haplopraxis
+Fork Info: null
+null
+Default Branch: 
+--------------------
+Directory: JAIN/
+Not a GitHub repository.
+--------------------
+Directory: LetterInvaders/
+Remote URL: https://github.com/Mechachleopteryx/LetterInvaders
+Fork Info: null
+null
+Default Branch: master
+--------------------
+New folder/ is not a Git repository.
+--------------------
+Directory: Predator-Mode/
+Not a GitHub repository.
+--------------------
+Directory: SimpleAgent2/
+Remote URL: https://github.com/MikeyBeez/SimpleAgent2
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Source/ is not a Git repository.
+--------------------
+Directory: Spacemacs/
+Remote URL: https://github.com/Mechachleopteryx/spacemacs.git
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: SuperCoder/
+Remote URL: https://github.com/transformeroptimus/SuperCoder
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: Wolf/
+Remote URL: https://github.com/standardgalactic/Wolf.git
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: abraxas/
+Remote URL: https://github.com/standardgalactic/abraxas
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: academizer/
+Remote URL: https://github.com/standardgalactic/academizer
+Fork Info: null
+null
+Default Branch: main
+--------------------
+advice/ is not a Git repository.
+--------------------
+Directory: agora/
+Remote URL: https://github.com/standardgalactic/agora
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: alphabet/
+Remote URL: https://github.com/standardgalactic/alphabet
+Fork Info: null
+null
+Default Branch: core
+--------------------
+ancient-greek/ is not a Git repository.
+--------------------
+Directory: article-summarizer/
+Remote URL: https://github.com/Dinujaya-Sandaruwan/Open-AI-Article-Summarizer.git
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: artwork/
+Remote URL: https://github.com/AsahiLinux/artwork.git
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: audiobooks/
+Remote URL: https://github.com/standardgalactic/audiobooks
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: autodoxx/
+Remote URL: https://github.com/standardgalactic/autodoxx
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: backup/
+Remote URL: https://github.com/standardgalactic/backup
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: backward-compatibility/
+Remote URL: https://github.com/standardgalactic/unfinished-thoughts
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: bayesian-mixtures/
+Remote URL: https://github.com/standardgalactic/bayesian-mixtures
+Fork Info: null
+null
+Default Branch: main
+--------------------
+blook/ is not a Git repository.
+--------------------
+Directory: brain/
+Remote URL: https://github.com/standardgalactic/brain
+Fork Info: null
+null
+Default Branch: 
+--------------------
+Directory: chord-extractor/
+Remote URL: https://github.com/standardgalactic/chord-extractor
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: code-extractor/
+Remote URL: https://github.com/standardgalactic/code-extractor
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: cogniscium/
+Remote URL: https://github.com/standardgalactic/cogniscium
+Directory: -backup/
+Failed to enter -backup/
+Antivenom/ is not a Git repository.
+--------------------
+Directory: Archive.org-Downloader/
+Remote URL: https://github.com/MiniGlome/Archive.org-Downloader.git
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: Centerfuge/
+Remote URL: https://github.com/standardgalactic/Centerfuge
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: CisterianNumbers/
+Remote URL: https://github.com/Mechachleopteryx/CistercianNumbers.git
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: Descent/
+Remote URL: https://github.com/Mechachleopteryx/descent.git
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Everlasting-Side-Quests_files/ is not a Git repository.
+--------------------
+Directory: Haplopraxis/
+Remote URL: https://github.com/standardgalactic/Haplopraxis
+Fork Info: null
+null
+Default Branch: 
+--------------------
+Directory: JAIN/
+Not a GitHub repository.
+--------------------
+Directory: LetterInvaders/
+Remote URL: https://github.com/Mechachleopteryx/LetterInvaders
+Fork Info: null
+null
+Default Branch: master
+--------------------
+New folder/ is not a Git repository.
+--------------------
+Directory: Predator-Mode/
+Not a GitHub repository.
+--------------------
+Directory: SimpleAgent2/
+Remote URL: https://github.com/MikeyBeez/SimpleAgent2
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Source/ is not a Git repository.
+--------------------
+Directory: Spacemacs/
+Remote URL: https://github.com/Mechachleopteryx/spacemacs.git
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: SuperCoder/
+Remote URL: https://github.com/transformeroptimus/SuperCoder
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: Wolf/
+Remote URL: https://github.com/standardgalactic/Wolf.git
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: abraxas/
+Remote URL: https://github.com/standardgalactic/abraxas
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: academizer/
+Remote URL: https://github.com/standardgalactic/academizer
+Fork Info: null
+null
+Default Branch: core
+--------------------
+advice/ is not a Git repository.
+--------------------
+Directory: agora/
+Remote URL: https://github.com/standardgalactic/agora
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: alphabet/
+Remote URL: https://github.com/standardgalactic/alphabet
+Fork Info: null
+null
+Default Branch: core
+--------------------
+ancient-greek/ is not a Git repository.
+--------------------
+Directory: article-summarizer/
+Remote URL: https://github.com/Dinujaya-Sandaruwan/Open-AI-Article-Summarizer.git
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: artwork/
+Remote URL: https://github.com/AsahiLinux/artwork.git
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: audiobooks/
+Remote URL: https://github.com/standardgalactic/audiobooks
+Fork Info: null
+null
+Default Branch: 
+--------------------
+Directory: autodoxx/
+Remote URL: https://github.com/standardgalactic/autodoxx
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: backup/
+Remote URL: https://github.com/standardgalactic/backup
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: backward-compatibility/
+Remote URL: https://github.com/standardgalactic/unfinished-thoughts
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: bayesian-mixtures/
+Remote URL: https://github.com/standardgalactic/bayesian-mixtures
+Fork Info: null
+null
+Default Branch: main
+--------------------
+blook/ is not a Git repository.
+--------------------
+Directory: brain/
+Remote URL: https://github.com/standardgalactic/brain
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: chord-extractor/
+Remote URL: https://github.com/standardgalactic/chord-extractor
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: code-extractor/
+Remote URL: https://github.com/standardgalactic/code-extractor
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: cogniscium/
+Remote URL: https://github.com/standardgalactic/cogniscium
+Fork Info: null
+null
+Default Branch: main
+--------------------
+cognitive-activism/ is not a Git repository.
+--------------------
+dasdfsdf/ is not a Git repository.
+--------------------
+Directory: docker-gs-ping/
+Remote URL: https://github.com/olliefr/docker-gs-ping
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: eclectric-oil/
+Remote URL: https://github.com/standardgalactic/eclectric-oil
+Fork Info: null
+null
+Default Branch: main
+--------------------
+empathic-intelligence/ is not a Git repository.
+--------------------
+ex-machina/ is not a Git repository.
+--------------------
+Directory: example/
+Remote URL: https://github.com/standardgalactic/example
+Fork Info: null
+null
+Default Branch: main
+--------------------
+explore/ is not a Git repository.
+--------------------
+fakebook/ is not a Git repository.
+--------------------
+Directory: fbcmd/
+Remote URL: https://github.com/dtompkins/fbcmd
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: git-self-host/
+Not a GitHub repository.
+--------------------
+Directory: glitch-art/
+Remote URL: https://github.com/standardgalactic/glitch-art
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: go-build-template/
+Remote URL: https://github.com/Mechachleopteryx/go-build-template.git
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: graph-of-thoughts/
+Remote URL: https://github.com/standardgalactic/graph-of-thoughts.git
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: graphbrain/
+Remote URL: https://github.com/Mechachleopteryx/graphbrain.git
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: gravity/
+Remote URL: https://github.com/standardgalactic/gravity
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: history-of-english/
+Remote URL: https://github.com/standardgalactic/history-of-english
+Fork Info: null
+null
+Default Branch: 
+--------------------
+holding-bin/ is not a Git repository.
+--------------------
+Directory: human/
+Remote URL: https://github.com/standardgalactic/human
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: hyperspace/
+Remote URL: https://github.com/standardgalactic/hyperspace
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: keen-unicoder/
+Remote URL: https://github.com/standardgalactic/keen-unicoder
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: keen/
+Remote URL: https://github.com/Playfloor/keen.git
+Fork Info: null
+null
+Default Branch: master
+--------------------
+lab/ is not a Git repository.
+--------------------
+Directory: library/
+Remote URL: https://github.com/standardgalactic/library
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: llama/
+Remote URL: https://github.com/standardgalactic/llama
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: logical-connectives/
+Remote URL: https://github.com/standardgalactic/logical-connectives
+Fork Info: null
+null
+Default Branch: main
+--------------------
+loomfinder/ is not a Git repository.
+--------------------
+Directory: lwe/
+Remote URL: https://github.com/standardgalactic/lwe
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: mercury-rising/
+Remote URL: https://github.com/standardgalactic/mercury-rising
+Fork Info: null
+null
+Default Branch: 
+--------------------
+Directory: mindgame/
+Remote URL: https://github.com/standardgalactic/mindgame
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: mini-c-projects/
+Remote URL: https://github.com/standardgalactic/mini-c-projects
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: mirror/
+Remote URL: https://github.com/standardgalactic/mirror
+Fork Info: null
+null
+Default Branch: main
+--------------------
+mistral-chat/ is not a Git repository.
+--------------------
+negentropy-alternate/ is not a Git repository.
+--------------------
+Directory: negentropy/
+Remote URL: https://github.com/standardgalactic/negentropy
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: neovim/
+Remote URL: https://github.com/standardgalactic/neovim.git
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: nlp-notebooks/
+Remote URL: https://github.com/Mechachleopteryx/nlp-notebooks.git
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: notes/
+Remote URL: https://github.com/standardgalactic/notes
+Fork Info: null
+null
+Default Branch: main
+--------------------
+old-backup/ is not a Git repository.
+--------------------
+old/ is not a Git repository.
+--------------------
+openai-data/ is not a Git repository.
+--------------------
+Directory: orgmode/
+Remote URL: https://github.com/standardgalactic/orgmode.git
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: phonograph/
+Remote URL: https://github.com/standardgalactic/phonograph
+Fork Info: null
+null
+Default Branch: main
+--------------------
+portal-prototypes/ is not a Git repository.
+--------------------
+Directory: positive-affirmation-generator/
+Remote URL: https://github.com/standardgalactic/positive-affirmation-generator
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: prototypes/
+Remote URL: https://github.com/standardgalactic/prototypes
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: psychohistory/
+Remote URL: https://github.com/standardgalactic/psychohistory
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: quadrivium/
+Remote URL: https://github.com/standardgalactic/quadrivium
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: quantum-soup/
+Remote URL: https://github.com/standardgalactic/quantum-soup
+Fork Info: null
+null
+Default Branch: 
+--------------------
+Directory: rama/
+Remote URL: https://github.com/standardgalactic/rama
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: research/
+Remote URL: https://github.com/standardgalactic/research
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: rubiks-solution/
+Remote URL: https://github.com/standardgalactic/rubiks-solution
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: secret-message/
+Remote URL: https://github.com/standardgalactic/secret-message
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: sga-encoder/
+Remote URL: https://github.com/standardgalactic/sga-encoder
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: shellcheck/
+Remote URL: https://github.com/standardgalactic/shellcheck
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: sitemap/
+Remote URL: https://github.com/standardgalactic/sitemap
+Fork Info: null
+null
+Default Branch: main
+--------------------
+skullcandy/ is not a Git repository.
+--------------------
+Directory: standardgalactic.github.io/
+Remote URL: https://github.com/standardgalactic/standardgalactic.github.io
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: standardgalactic/
+Remote URL: https://github.com/standardgalactic/standardgalactic
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: substrate/
+Remote URL: https://github.com/standardgalactic/substrate
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: summarizer/
+Remote URL: https://github.com/puppe1990/gpt-text-summarizer
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: supercube/
+Remote URL: https://github.com/standardgalactic/supercube
+Fork Info: null
+null
+Default Branch: main
+--------------------
+swap/ is not a Git repository.
+--------------------
+Directory: systada/
+Remote URL: https://github.com/standardgalactic/systada
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: technobabble/
+Remote URL: https://github.com/standardgalactic/technobabble
+Fork Info: null
+null
+Default Branch: main
+--------------------
+temporary/ is not a Git repository.
+--------------------
+testfiles/ is not a Git repository.
+--------------------
+Directory: theory/
+Remote URL: https://github.com/standardgalactic/theory
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: tohtml/
+Remote URL: https://github.com/standardgalactic/tohtml
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: tony/
+Remote URL: https://github.com/standardgalactic/tony
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: toolkit/
+Remote URL: https://github.com/standardgalactic/toolkit
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: transcript/
+Remote URL: https://github.com/standardgalactic/transcript
+Fork Info: null
+null
+Default Branch: main
+--------------------
+transmute/ is not a Git repository.
+--------------------
+Directory: unscannable-interfaces/
+Remote URL: https://github.com/standardgalactic/unscannable-interfaces
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: vectorspace/
+Remote URL: https://github.com/standardgalactic/vectorspace
+Fork Info: null
+null
+Default Branch: core
+--------------------
+Directory: whatsapp-gpt/
+Remote URL: https://github.com/standardgalactic/whatsapp-gpt
+Fork Info: null
+null
+Default Branch: 
+--------------------
+working/ is not a Git repository.
+--------------------
+Directory: xanadu/
+Remote URL: https://github.com/standardgalactic/xanadu
+Fork Info: null
+null
+Default Branch: main
+--------------------
+Directory: yaegi/
+Remote URL: https://github.com/standardgalactic/yaegi
+Fork Info: null
+null
+Default Branch: master
+--------------------
+Directory: zet/
+Remote URL: https://github.com/rwxrob/zet
+Fork Info: null
+null
+Default Branch: 
+--------------------
+Directory: zygomindfulness/
+Remote URL: https://github.com/standardgalactic/zygomindfulness.git
+Fork Info: null
+null
+Default Branch: 
+--------------------
