@@ -122,6 +122,25 @@
         #search-count, .directory-note { color: #a7c9a7; font: 0.9rem/1.6 Arial,sans-serif; }
         a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid white; outline-offset: 4px; }
         @media (prefers-reduced-motion: reduce) { canvas { display: none; } }
+
+        body.heterodox { color: #000; background: #fff; }
+        body.heterodox canvas { display: none; }
+        body.heterodox .content { background: #fff; border-color: #000; box-shadow: none; }
+        body.heterodox .grid a { color: #000; background: #fff; border-color: #000; }
+        body.heterodox .grid a:hover { color: #fff; background: #000; }
+        body.heterodox .grid small,
+        body.heterodox #search-count,
+        body.heterodox .directory-note { color: #333; }
+        body.heterodox .grid a:hover small { color: #fff; }
+        body.heterodox #toggle-font,
+        body.heterodox #toggle-heterodox,
+        body.heterodox #project-search { color: #000; background: #fff; border: 1px solid #000; }
+        #toggle-heterodox { margin: 20px 8px; padding: 10px 20px; font-size: 1em; cursor: pointer; color: #00ff00; background: transparent; border: 1px solid #00ff00; }
+        body.heterodox #toggle-font:hover,
+        body.heterodox #toggle-heterodox:hover { color: #fff; background: #000; }
+        body.heterodox a:focus-visible,
+        body.heterodox button:focus-visible,
+        body.heterodox input:focus-visible { outline-color: #000; }
 </style>
 </head>
 <body>
@@ -130,6 +149,7 @@
 <h1>Guide to Forbidden Knowledge</h1>
 <p class="instructions">Press <strong>Ctrl+Z</strong> outside the search field, or use the button below, to switch between SGA and Latin fonts.</p>
 <button id="toggle-font" type="button">Toggle Latin (Arial)</button>
+<button id="toggle-heterodox" type="button" aria-pressed="false">Heterodox mode: off</button>
 <p><label for="project-search">Search projects</label></p>
 <input id="project-search" type="search" placeholder="Search research, tools, galleries…">
 <p id="search-count" role="status" aria-live="polite"></p>
@@ -334,6 +354,19 @@
         }
         search.addEventListener('input', filterProjects);
         filterProjects();
+
+        const heterodoxButton = document.getElementById('toggle-heterodox');
+        function setHeterodox(enabled) {
+            document.body.classList.toggle('heterodox', enabled);
+            heterodoxButton.setAttribute('aria-pressed', String(enabled));
+            heterodoxButton.textContent = 'Heterodox mode: ' + (enabled ? 'on' : 'off');
+        }
+        try { setHeterodox(localStorage.getItem('sitemap-heterodox') === 'true'); } catch (_) {}
+        heterodoxButton.addEventListener('click', () => {
+            const enabled = !document.body.classList.contains('heterodox');
+            setHeterodox(enabled);
+            try { localStorage.setItem('sitemap-heterodox', String(enabled)); } catch (_) {}
+        });
 </script>
 </body>
 </html>
