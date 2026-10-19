@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guide to Forbidden Knowledge</title>
-    <meta property="og:image" content="http://raw.githubusercontent.com/standardgalactic/sitemap/refs/heads/main/forbidden-knowledge.png" />
-    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/standardgalactic/sitemap/refs/heads/main/forbidden-knowledge.png" />
-
-    <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guide to Forbidden Knowledge</title>
+<meta name="description" content="A directory of Standard Galactic research, experiments, creative projects, and interactive tools.">
+<meta property="og:image" content="https://raw.githubusercontent.com/standardgalactic/sitemap/refs/heads/main/forbidden-knowledge.png">
+<style>
         @font-face {
             src: url('fonts/Sga-Regular.woff2') format('woff2'),
                  url('fonts/Sga-Regular.woff') format('woff'),
@@ -114,23 +113,138 @@
             50% { background-color: orange; color: black; }
             100% { background-color: green; color: #00ff00; }
         }
-    </style>
+    
+        .grid a { height: 100%; box-sizing: border-box; }
+        .grid li[hidden], .directory-section[hidden] { display: none; }
+        .grid small { display: block; font: 0.78rem/1.5 Arial, sans-serif; margin-top: 8px; color: #a7c9a7; }
+        .grid a:hover small { color: #163016; }
+        #project-search { box-sizing: border-box; width: min(100%, 700px); padding: 12px; color: #00ff00; background: #061006; border: 1px solid #00aa00; font: 1rem Arial,sans-serif; }
+        #search-count, .directory-note { color: #a7c9a7; font: 0.9rem/1.6 Arial,sans-serif; }
+        a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid white; outline-offset: 4px; }
+        @media (prefers-reduced-motion: reduce) { canvas { display: none; } }
+</style>
 </head>
 <body>
-    <canvas id="starfield"></canvas>
-    <div class="content">
-        <h1>Guide to Forbidden Knowledge</h1>
-        <p class="instructions">Press <strong>Ctrl+Z</strong> or use the button below to toggle between SGA and Latin fonts.</p>
-        <button id="toggle-font">Toggle Latin (Arial)</button>
-
-        <h2>Directly Deployed Pages</h2>
-        <ul id="direct-pages" class="grid"></ul>
-
-        <h2>Main Repository Deployed Pages</h2>
-        <ul id="main-repo-pages" class="grid"></ul>
-    </div>
-
-    <script>
+<canvas id="starfield" aria-hidden="true"></canvas>
+<main class="content">
+<h1>Guide to Forbidden Knowledge</h1>
+<p class="instructions">Press <strong>Ctrl+Z</strong> outside the search field, or use the button below, to switch between SGA and Latin fonts.</p>
+<button id="toggle-font" type="button">Toggle Latin (Arial)</button>
+<p><label for="project-search">Search projects</label></p>
+<input id="project-search" type="search" placeholder="Search research, tools, galleries…">
+<p id="search-count" role="status" aria-live="polite"></p>
+<p class="directory-note">A selection of public deployments. Links checked 18 October 2026. Recent projects are ordered by repository activity; earlier pages remain below.</p>
+<section class="directory-section">
+<h2>Recent Research and Projects</h2>
+<ul class="grid">
+<li><a href="https://standardgalactic.github.io/memnet/" target="_blank" rel="noopener noreferrer"><span>Memnet</span><small>Memnet Flashcards</small></a></li>
+<li><a href="https://standardgalactic.github.io/planet-design/" target="_blank" rel="noopener noreferrer"><span>Planet Design</span><small>Planet Design · Location archive</small></a></li>
+<li><a href="https://standardgalactic.github.io/persistent-distinctions/" target="_blank" rel="noopener noreferrer"><span>Persistent Distinctions</span><small>Room for Another Way</small></a></li>
+<li><a href="https://standardgalactic.github.io/laboratory/" target="_blank" rel="noopener noreferrer"><span>Laboratory</span><small>Flyxion Laboratory</small></a></li>
+<li><a href="https://standardgalactic.github.io/spherepop/" target="_blank" rel="noopener noreferrer"><span>Spherepop</span><small>Spherepop Prototype</small></a></li>
+<li><a href="https://standardgalactic.github.io/admissibility-lab/" target="_blank" rel="noopener noreferrer"><span>Admissibility Lab</span><small>Motor Field</small></a></li>
+<li><a href="https://standardgalactic.github.io/library/" target="_blank" rel="noopener noreferrer"><span>Library</span><small>Library — Constraint-Historical Research Instrument</small></a></li>
+<li><a href="https://standardgalactic.github.io/standardgalactic/audio-scope/" target="_blank" rel="noopener noreferrer"><span>Audioscope</span><small>RSVP Audio Scope</small></a></li>
+<li><a href="https://standardgalactic.github.io/alphabet/" target="_blank" rel="noopener noreferrer"><span>Alphabet</span><small>Standard Galactic Alphabet</small></a></li>
+<li><a href="https://standardgalactic.github.io/alignment/" target="_blank" rel="noopener noreferrer"><span>Alignment</span><small>Alignment</small></a></li>
+<li><a href="https://standardgalactic.github.io/Centerfuge/starpop/" target="_blank" rel="noopener noreferrer"><span>Centerfuge / Starpop</span><small>Starpop</small></a></li>
+<li><a href="https://standardgalactic.github.io/kitbash/" target="_blank" rel="noopener noreferrer"><span>Kitbash</span><small>Self-Refactoring Crosslinking | kitbash</small></a></li>
+<li><a href="https://standardgalactic.github.io/haplopraxis/" target="_blank" rel="noopener noreferrer"><span>Haplopraxis</span><small>Haplopraxis</small></a></li>
+<li><a href="https://standardgalactic.github.io/fonts/" target="_blank" rel="noopener noreferrer"><span>Fonts</span><small>Font Laboratory — standardgalactic</small></a></li>
+<li><a href="https://standardgalactic.github.io/example/" target="_blank" rel="noopener noreferrer"><span>Example</span><small>Modulator</small></a></li>
+<li><a href="https://standardgalactic.github.io/workshop/" target="_blank" rel="noopener noreferrer"><span>Workshop</span><small>Workshop | workshop</small></a></li>
+<li><a href="https://standardgalactic.github.io/computation/" target="_blank" rel="noopener noreferrer"><span>Computation</span><small>Xylomorphic Infrastructure</small></a></li>
+<li><a href="https://standardgalactic.github.io/portable-warrant/" target="_blank" rel="noopener noreferrer"><span>Portable Warrant</span><small>The Portable Warrant: Evidence at the Boundary | portable-warrant</small></a></li>
+<li><a href="https://standardgalactic.github.io/userland/" target="_blank" rel="noopener noreferrer"><span>Userland</span><small>USERLAND // Public Access Node</small></a></li>
+<li><a href="https://standardgalactic.github.io/linguistics/" target="_blank" rel="noopener noreferrer"><span>Linguistics</span><small>Distinction Engine</small></a></li>
+<li><a href="https://standardgalactic.github.io/crooked-platonism/" target="_blank" rel="noopener noreferrer"><span>Crooked Platonism</span><small>Crooked Platonism | crooked-platonism</small></a></li>
+<li><a href="https://standardgalactic.github.io/steel-sky/" target="_blank" rel="noopener noreferrer"><span>Steel Sky</span><small>Steel Sky: image pipeline tests</small></a></li>
+<li><a href="https://standardgalactic.github.io/antivenom/" target="_blank" rel="noopener noreferrer"><span>Antivenom</span><small>Antivenom Repository Showcase</small></a></li>
+<li><a href="https://standardgalactic.github.io/experiments/" target="_blank" rel="noopener noreferrer"><span>Experiments</span><small>Experiments — standardgalactic</small></a></li>
+<li><a href="https://standardgalactic.github.io/infographic/wall.html" target="_blank" rel="noopener noreferrer"><span>Infographic Gallery</span><small>Chromatic Image Wall</small></a></li>
+<li><a href="https://standardgalactic.github.io/adversaria/" target="_blank" rel="noopener noreferrer"><span>Adversaria</span><small>adversaria | Public Clam Graph</small></a></li>
+<li><a href="https://standardgalactic.github.io/selective-cinema/selective-cinema.pdf" target="_blank" rel="noopener noreferrer"><span>Selective Cinema</span></a></li>
+<li><a href="https://standardgalactic.github.io/cosmology/" target="_blank" rel="noopener noreferrer"><span>Cosmology</span><small>Universal Reading Room</small></a></li>
+<li><a href="https://standardgalactic.github.io/history/" target="_blank" rel="noopener noreferrer"><span>History</span><small>History Visualizer</small></a></li>
+<li><a href="https://standardgalactic.github.io/drawing/" target="_blank" rel="noopener noreferrer"><span>Drawing</span><small>Drawing order</small></a></li>
+<li><a href="https://standardgalactic.github.io/cutaway-reader/" target="_blank" rel="noopener noreferrer"><span>Cutaway Reader</span><small>Cutaway Reader</small></a></li>
+<li><a href="https://standardgalactic.github.io/policy-selection/" target="_blank" rel="noopener noreferrer"><span>Policy Selection</span><small>policy-selection</small></a></li>
+<li><a href="https://standardgalactic.github.io/hyperbionic-reading/" target="_blank" rel="noopener noreferrer"><span>Hyperbionic Reading</span><small>Hyperbionic Reading | hyperbionic-reading</small></a></li>
+<li><a href="https://standardgalactic.github.io/rhetoric/" target="_blank" rel="noopener noreferrer"><span>Rhetoric</span><small>Repair Theory: Falsifiable Conformance Slice | rhetoric</small></a></li>
+<li><a href="https://standardgalactic.github.io/interpretability/" target="_blank" rel="noopener noreferrer"><span>Interpretability</span><small>FLYXION // INDEX</small></a></li>
+<li><a href="https://standardgalactic.github.io/intelligence/" target="_blank" rel="noopener noreferrer"><span>Intelligence</span><small>Semantic Relaxation Networks</small></a></li>
+<li><a href="https://standardgalactic.github.io/rsvp-lab/" target="_blank" rel="noopener noreferrer"><span>RSVP Lab</span><small>Audioscope — Slow Moving Verb</small></a></li>
+<li><a href="https://standardgalactic.github.io/photonics/" target="_blank" rel="noopener noreferrer"><span>Photonics</span><small>Geometric Defense Mechanisms</small></a></li>
+<li><a href="https://standardgalactic.github.io/epistemology/" target="_blank" rel="noopener noreferrer"><span>Epistemology</span><small>Morphology as Computation Audioscope</small></a></li>
+<li><a href="https://standardgalactic.github.io/philosophy/" target="_blank" rel="noopener noreferrer"><span>Philosophy</span><small>Latent Structure</small></a></li>
+<li><a href="https://standardgalactic.github.io/textbook/" target="_blank" rel="noopener noreferrer"><span>Textbook</span><small>Audioscope</small></a></li>
+<li><a href="https://standardgalactic.github.io/algebra/" target="_blank" rel="noopener noreferrer"><span>Algebra</span><small>Algebra | algebra</small></a></li>
+<li><a href="https://standardgalactic.github.io/echo-chamber/" target="_blank" rel="noopener noreferrer"><span>Echo Chamber</span><small>echo-chamber | An experiment in using Git branches instead of information architecture.</small></a></li>
+<li><a href="https://standardgalactic.github.io/stylometrics/" target="_blank" rel="noopener noreferrer"><span>Stylometrics</span><small>Stylometrics | stylometrics</small></a></li>
+</ul>
+</section>
+<section class="directory-section">
+<h2>More Deployed Projects</h2>
+<ul class="grid">
+<li><a href="https://standardgalactic.github.io/diatribe/" target="_blank" rel="noopener noreferrer"><span>Diatribe</span><small>Diatribe | diatribe</small></a></li>
+<li><a href="https://standardgalactic.github.io/abraxas/" target="_blank" rel="noopener noreferrer"><span>Abraxas</span><small>Evolution of the Paraclete</small></a></li>
+<li><a href="https://standardgalactic.github.io/calculus/" target="_blank" rel="noopener noreferrer"><span>Calculus</span><small>Universal Memory Monitor</small></a></li>
+<li><a href="https://standardgalactic.github.io/logical-connectives/" target="_blank" rel="noopener noreferrer"><span>Logical Connectives</span><small>Logical Connectives | logical-connectives</small></a></li>
+<li><a href="https://standardgalactic.github.io/throwback/" target="_blank" rel="noopener noreferrer"><span>Throwback</span><small>~*~ Welcome to my Homepage ~*~</small></a></li>
+<li><a href="https://standardgalactic.github.io/hepastitium/" target="_blank" rel="noopener noreferrer"><span>Hepastitium</span><small>Hepastitium</small></a></li>
+<li><a href="https://standardgalactic.github.io/industrial-ecologies/" target="_blank" rel="noopener noreferrer"><span>Industrial Ecologies</span><small>Industrial Ecologies</small></a></li>
+<li><a href="https://standardgalactic.github.io/entropic-smoothing/" target="_blank" rel="noopener noreferrer"><span>Entropic Smoothing</span><small>entropic_smoothing</small></a></li>
+<li><a href="https://standardgalactic.github.io/antigravity/" target="_blank" rel="noopener noreferrer"><span>Antigravity</span><small>No Such Force — an entropic curvature playground</small></a></li>
+<li><a href="https://standardgalactic.github.io/macrolife/" target="_blank" rel="noopener noreferrer"><span>Macrolife</span><small>Macrolife — Image Atlas</small></a></li>
+<li><a href="https://standardgalactic.github.io/audio-player.html" target="_blank" rel="noopener noreferrer"><span>Standard Galactic / Audio Player</span><small>Better Than Human — Flyxion</small></a></li>
+<li><a href="https://standardgalactic.github.io/memory/micromegas/visualizer.html" target="_blank" rel="noopener noreferrer"><span>Memory</span><small>Micromegas Visualizer</small></a></li>
+<li><a href="https://standardgalactic.github.io/cliodynamics/" target="_blank" rel="noopener noreferrer"><span>Cliodynamics</span><small>The Cliodynamics Archive</small></a></li>
+<li><a href="https://standardgalactic.github.io/scriptorium/" target="_blank" rel="noopener noreferrer"><span>Scriptorium</span><small>Audioscope</small></a></li>
+<li><a href="https://standardgalactic.github.io/repair-preserves-difference/" target="_blank" rel="noopener noreferrer"><span>Repair Preserves Difference</span><small>The Observatory of Small Strange Machines</small></a></li>
+<li><a href="https://standardgalactic.github.io/quadrivium/" target="_blank" rel="noopener noreferrer"><span>Quadrivium</span><small>Quadrivium - Interactive Parsing Tree Visualizer</small></a></li>
+<li><a href="https://standardgalactic.github.io/physiome/" target="_blank" rel="noopener noreferrer"><span>Physiome</span><small>physiome | A Multi-System Human Simulator</small></a></li>
+<li><a href="https://standardgalactic.github.io/cognition-research/" target="_blank" rel="noopener noreferrer"><span>Cognition Research</span><small>cognition-research | Supplementary Material</small></a></li>
+<li><a href="https://standardgalactic.github.io/privatization-of-competence/" target="_blank" rel="noopener noreferrer"><span>Privatization Of Competence</span><small>privatization-of-competence | The Privatization of Competence</small></a></li>
+<li><a href="https://standardgalactic.github.io/arcanum/" target="_blank" rel="noopener noreferrer"><span>Arcanum</span><small>Arcanum</small></a></li>
+<li><a href="https://standardgalactic.github.io/diagnostic-coordinates/" target="_blank" rel="noopener noreferrer"><span>Diagnostic Coordinates</span><small>diagnostic-coordinates | Repair-warrant objective and refusal taxonomy</small></a></li>
+<li><a href="https://standardgalactic.github.io/terminal-simulator/" target="_blank" rel="noopener noreferrer"><span>Terminal Simulator</span><small>Standard Galactic Terminal Simulator</small></a></li>
+<li><a href="https://standardgalactic.github.io/paracosm/" target="_blank" rel="noopener noreferrer"><span>Paracosm</span><small>Zero Day Exploits — RSVP Corpus Navigator</small></a></li>
+<li><a href="https://standardgalactic.github.io/cpr-textbook/" target="_blank" rel="noopener noreferrer"><span>Cpr Textbook</span><small>Reality Is A Trajectory</small></a></li>
+<li><a href="https://standardgalactic.github.io/robotics/" target="_blank" rel="noopener noreferrer"><span>Robotics</span><small>Continuation Geometry</small></a></li>
+</ul>
+</section>
+<section class="directory-section">
+<h2>Earlier Tools and Pages</h2>
+<ul class="grid">
+<li><a href="https://standardgalactic.github.io/brain/" target="_blank" rel="noopener noreferrer"><span>Brain</span></a></li>
+<li><a href="https://standardgalactic.github.io/Centerfuge/" target="_blank" rel="noopener noreferrer"><span>Centerfuge</span></a></li>
+<li><a href="https://standardgalactic.github.io/circle-of-fifths/" target="_blank" rel="noopener noreferrer"><span>Circle of Fifths</span></a></li>
+<li><a href="https://standardgalactic.github.io/calculator/" target="_blank" rel="noopener noreferrer"><span>Dactyl Calculator</span></a></li>
+<li><a href="https://standardgalactic.github.io/gamma-waves/" target="_blank" rel="noopener noreferrer"><span>Gamma Waves</span></a></li>
+<li><a href="https://standardgalactic.github.io/HYDRA/" target="_blank" rel="noopener noreferrer"><span>HYDRA</span></a></li>
+<li><a href="https://standardgalactic.github.io/alphabet/cipher.html" target="_blank" rel="noopener noreferrer"><span>Logico-Philosophicus</span></a></li>
+<li><a href="https://standardgalactic.github.io/plenum-ascent/" target="_blank" rel="noopener noreferrer"><span>Plenum Ascent</span></a></li>
+<li><a href="https://standardgalactic.github.io/pacer/" target="_blank" rel="noopener noreferrer"><span>Reading Pacer</span></a></li>
+<li><a href="https://standardgalactic.github.io/spellpop/" target="_blank" rel="noopener noreferrer"><span>SpellPop</span></a></li>
+<li><a href="https://standardgalactic.github.io/supercube/" target="_blank" rel="noopener noreferrer"><span>Supercube</span></a></li>
+<li><a href="https://standardgalactic.github.io/timeslip/" target="_blank" rel="noopener noreferrer"><span>Timeslip</span></a></li>
+<li><a href="https://standardgalactic.github.io/transcript/" target="_blank" rel="noopener noreferrer"><span>The Rəd Pιll</span></a></li>
+<li><a href="https://standardgalactic.github.io/vectorspace/#/galaxy/word2vec-wiki?cx=-3208&amp;cy=-8930&amp;cz=2898&amp;lx=-0.2059&amp;ly=-0.6299&amp;lz=-0.5451&amp;lw=0.5135&amp;ml=300&amp;s=1.75&amp;l=1&amp;v=d50_clean&amp;_k=hvciiy" target="_blank" rel="noopener noreferrer"><span>Vectorspace</span></a></li>
+<li><a href="https://standardgalactic.github.io/yarncrawler/" target="_blank" rel="noopener noreferrer"><span>Yarncrawler Framework</span></a></li>
+<li><a href="https://standardgalactic.github.io/cistercian.html" target="_blank" rel="noopener noreferrer"><span>Cistercian Numbers</span></a></li>
+<li><a href="https://standardgalactic.github.io/mouseover.html" target="_blank" rel="noopener noreferrer"><span>Mouseover</span></a></li>
+<li><a href="https://standardgalactic.github.io/earth-cube.html" target="_blank" rel="noopener noreferrer"><span>Earth Cube</span></a></li>
+<li><a href="https://standardgalactic.github.io/flashcards.html" target="_blank" rel="noopener noreferrer"><span>Flashcards</span></a></li>
+<li><a href="https://standardgalactic.github.io/typing-tutor.html" target="_blank" rel="noopener noreferrer"><span>Typing Tutor</span></a></li>
+<li><a href="https://standardgalactic.github.io/sga-converter.html" target="_blank" rel="noopener noreferrer"><span>SGA Converter</span></a></li>
+<li><a href="https://standardgalactic.github.io/skydome.html" target="_blank" rel="noopener noreferrer"><span>Prismatic Macroscope</span></a></li>
+<li><a href="https://standardgalactic.github.io/dactyl-clock.html" target="_blank" rel="noopener noreferrer"><span>Dactyl Clock</span></a></li>
+<li><a href="https://standardgalactic.github.io/snowglobe-reading.html" target="_blank" rel="noopener noreferrer"><span>Snowglobe Reading</span></a></li>
+<li><a href="https://standardgalactic.github.io/dvorak-converter.html" target="_blank" rel="noopener noreferrer"><span>Dvorak Converter</span></a></li>
+</ul>
+</section>
+</main>
+<script>
         // Starfield background
         const starCanvas = document.getElementById('starfield');
         const starContext = starCanvas.getContext('2d');
@@ -180,7 +294,7 @@
             requestAnimationFrame(animateStars);
         }
 
-        animateStars();
+        if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) animateStars();
 
         // Toggle font functionality
         const toggleFontButton = document.getElementById('toggle-font');
@@ -202,168 +316,25 @@
         toggleFontButton.addEventListener('click', toggleFont);
 
         document.addEventListener('keydown', function (event) {
-            if (event.ctrlKey && event.key === 'z') {
+            if (event.ctrlKey && event.key.toLowerCase() === 'z' && !event.target.closest('input, textarea, [contenteditable]')) {
+                event.preventDefault();
                 toggleFont();
             }
         });
 
-        // Add website links dynamically 
-        const directPages = [
-    { name: "Antivenom", url: "https://standardgalactic.github.io/antivenom" },
-    { name: "Abraxas", url: "https://standardgalactic.github.io/abraxas" },
-    { name: "Alphabet", url: "https://standardgalactic.github.io/alphabet" },
-    { name: "Arcanum", url: "https://standardgalactic.github.io/arcanum" },
-//    { name: "Autogenerative Dynamics", url: "https://standardgalactic.github.io/autogenerative-dynamics" },
-//    { name: "Android App", url: "https://standardgalactic.github.io/android-app" },
-//    { name: "Backward Compatibility", url: "https://standardgalactic.github.io/backward-compatibility" },
-//    { name: "Beef", url: "https://standardgalactic.github.io/Beef" },
-//    { name: "Box Drawing", url: "https://standardgalactic.github.io/box-drawing" },
-    { name: "Beneath a Steel Sky", url: "https://standardgalactic.github.io/stable-diffusion" },
-    { name: "Brain", url: "https://standardgalactic.github.io/brain" },
-//    { name: "Boolean Logic", url: "https://standardgalactic.github.io/logical-connectives" },
-//    { name: "Bubble City", url: "https://standardgalactic.github.io/bubble-city" },
-//    { name: "Capstone", url: "https://standardgalactic.github.io/capstone" },
-    { name: "Centerfuge", url: "https://standardgalactic.github.io/Centerfuge" },
-    { name: "Circle of Fifths", url: "https://standardgalactic.github.io/circle-of-fifths" },
-// { name: "Code Extractor", url: "https://standardgalactic.github.io/code-extractor" },
-//    { name: "Cogniscium", url: "https://standardgalactic.github.io/cogniscium" },
-//    { name: "Diatribe", url: "https://standardgalactic.github.io/diatribe" },
-//    { name: "Agora", url: "https://standardgalactic.github.io/agora" },
-//    { name: "Cran GT", url: "https://standardgalactic.github.io/cran-gt" },
-//    { name: "Darwin Core", url: "https://standardgalactic.github.io/darwin-core" },
-//    { name: "Dataflow Synthesis", url: "https://standardgalactic.github.io/dataflow-synthesis" },
-    { name: "Dactyl Calculator", url: "https://standardgalactic.github.io/calculator" },
-//    { name: "Dynamite", url: "https://standardgalactic.github.io/dynamite" },
-//    { name: "Eclectric Oil", url: "https://standardgalactic.github.io/eclectric-oil" },
-//    { name: "Ensign", url: "https://standardgalactic.github.io/ensign" },
-//    { name: "Emacs Helm", url: "https://standardgalactic.github.io/emacs-helm" },
-    { name: "Gamma Waves", url: "https://standardgalactic.github.io/gamma-waves" },
-//    { name: "General Introduction", url: "https://standardgalactic.github.io/general-introduction" },
-//    { name: "Hackweek Blog", url: "https://standardgalactic.github.io/hackweek-blog" },
-    { name: "HYDRA", url: "https://standardgalactic.github.io/HYDRA" },
-//    { name: "Haplopraxis", url: "https://standardgalactic.github.io/haplopraxis" },
-//    { name: "Haskell Docs", url: "https://standardgalactic.github.io/Haskell-docs" },
-//    { name: "HTML ARIA", url: "https://standardgalactic.github.io/html-aria" },
-    { name: "Hepastitium", url: "https://standardgalactic.github.io/hepastitium" },
-//    { name: "Hyperspace", url: "https://standardgalactic.github.io/hyperspace" },
-//    { name: "Julia Algorithms", url: "https://standardgalactic.github.io/Julia-algorithms" },
-//    { name: "Kiss", url: "https://standardgalactic.github.io/kiss" },
-    { name: "Library", url: "https://standardgalactic.github.io/library" },
-    { name: "Logico-Philosophicus", url: "https://standardgalactic.github.io/alphabet/cipher.html" },
-//    { name: "Neuron Notes", url: "https://standardgalactic.github.io/neuron-notes" },
-//    { name: "Modulator", url: "https://standardgalactic.github.io/example" },
-//    { name: "Orgmode", url: "https://standardgalactic.github.io/orgmode" },
-//    { name: "Physics Inoculation", url: "https://standardgalactic.github.io/kitbash" },
-    { name: "Plenum Ascent", url: "https://standardgalactic.github.io/plenum-ascent" },
-//    { name: "Project Xanadu", url: "https://standardgalactic.github.io/xanadu" },
-//    { name: "Ptolemy2", url: "https://standardgalactic.github.io/ptolemy2" },
-//    { name: "Python Crash Course", url: "https://standardgalactic.github.io/python-crash-course" },
-    { name: "Reading Pacer", url: "https://standardgalactic.github.io/pacer" },
-//    { name: "Model Index", url: "https://standardgalactic.github.io/rsvp-models-index" },
-    { name: "Quadrivium", url: "https://standardgalactic.github.io/quadrivium" },
-//    { name: "Quantum Rust", url: "https://standardgalactic.github.io/quantum-rust" },
-//    { name: "Rust Goblin", url: "https://standardgalactic.github.io/rust-goblin" },
-//    { name: "Sandbox", url: "https://standardgalactic.github.io/sandbox" },
-//    { name: "Scipy2013 Quantities", url: "https://standardgalactic.github.io/scipy2013-quantities" },
-//    { name: "Secret Message", url: "https://standardgalactic.github.io/secret-message" },
-// not necessary    { name: "Site Map", url: "https://standardgalactic.github.io/sitemap" },
-//    { name: "Skouria", url: "https://standardgalactic.github.io/Skouria" },
-//    { name: "SpecialFunctions.jl", url: "https://standardgalactic.github.io/SpecialFunctions.jl" },
-    { name: "SpellPop", url: "https://standardgalactic.github.io/spellpop" },
-    { name: "Standard Galactic", url: "https://standardgalactic.github.io/standardgalactic.github.io" },
-//    { name: "Star Sequence", url: "https://standardgalactic.github.io/star-sequence" },
-    { name: "Supercube", url: "https://standardgalactic.github.io/supercube" },
-    { name: "Terminal Simulator", url: "https://standardgalactic.github.io/terminal-simulator" },
-//    { name: "Terminux", url: "https://standardgalactic.github.io/terminux" },
-//    { name: "Textwrapper", url: "https://standardgalactic.github.io/textwrapper" },
-//    { name: "Tootorials", url: "https://standardgalactic.github.io/tootorials" },
-    { name: "Timeslip", url: "https://standardgalactic.github.io/timeslip" },
-    { name: "The Rəd Pιll", url: "https://standardgalactic.github.io/transcript" },
-//    { name: "Teleosemantics", url: "https://standardgalactic.github.io/teleosemantics" },
-//    { name: "Umbilicus", url: "https://standardgalactic.github.io/umbilicus" },
-//    { name: "Unscannable Interfaces", url: "https://standardgalactic.github.io/random-thoughts" },
-    { name: "Userland", url: "https://standardgalactic.github.io/userland" },
-    { name: "Vectorspace", url: "https://standardgalactic.github.io/vectorspace/#/galaxy/word2vec-wiki?cx=-3208&cy=-8930&cz=2898&lx=-0.2059&ly=-0.6299&lz=-0.5451&lw=0.5135&ml=300&s=1.75&l=1&v=d50_clean&_k=hvciiy" },
-//    { name: "Website Prototype", url: "https://standardgalactic.github.io/website-1" },
-//    { name: "Xylomancy", url: "https://standardgalactic.github.io/xylomancy" },
-	{ name: "Yarncrawler Framework", url: "https://standardgalactic.github.io/yarncrawler" },		
-//    { name: "Zetetics", url: "https://standardgalactic.github.io/zetetics" },
-    { name: "Zero-Day Exploits", url: "https://standardgalactic.github.io/paracosm" },
-];
-
-const mainRepoPages = [
-//    { name: "About", url: "https://standardgalactic.github.io/about.html" },
-//    { name: "Early Spherepop", url: "https://standardgalactic.github.io/early-spherepop.html" },
-    { name: "Cistercian Numbers", url: "https://standardgalactic.github.io/cistercian.html" },
-    { name: "Mouseover", url: "https://standardgalactic.github.io/mouseover.html" },
-//    { name: "Starfield", url: "https://standardgalactic.github.io/starfield.html" },
-//    { name: "Main Profile", url: "https://standardgalactic.github.io/main-profile.htm" },
-//    { name: "Additional Posts", url: "https://standardgalactic.github.io/additional-posts.html" },
-//    { name: "Do-it-yourself", url: "https://standardgalactic.github.io/exs.html" },
-//    { name: "Old Index", url: "https://standardgalactic.github.io/old-index.html" },
-//    { name: "Timeline Photos", url: "https://standardgalactic.github.io/timeline-photos.html" },
-//    { name: "Books Read", url: "https://standardgalactic.github.io/books-read.html" },
-    { name: "Earth Cube", url: "https://standardgalactic.github.io/earth-cube.html" },
-    { name: "Flashcards", url: "https://standardgalactic.github.io/flashcards.html" },
-    { name: "Typing Tutor", url: "https://standardgalactic.github.io/typing-tutor.html" },
-//    { name: "Browser", url: "https://standardgalactic.github.io/browser.html" },
-//    { name: "Reverse Sproll Reader", url: "https://standardgalactic.github.io/reverse-sproll-reader.html" },
-//    { name: "Uncategorized Photos", url: "https://standardgalactic.github.io/uncategorized-photos.html" },
-//    { name: "Color Radio", url: "https://standardgalactic.github.io/color-radio.html" },
-//    { name: "Go Flashcards", url: "https://standardgalactic.github.io/go-flashcards.html" },
-//    { name: "Glossary", url: "https://standardgalactic.github.io/glossary.html" },
-		      
-//    { name: "Index", url: "https://standardgalactic.github.io/index.html" },
-    { name: "SGA Converter", url: "https://standardgalactic.github.io/sga-converter.html" },
-//    { name: "Wackamole", url: "https://standardgalactic.github.io/wam-index.html" },
-//    { name: "Language Swap Test", url: "https://standardgalactic.github.io/language-swap-test.html" },
-//    { name: "Portfolio", url: "https://standardgalactic.github.io/portfolio.html" },
-    { name: "Prismatic Macroscope", url: "https://standardgalactic.github.io/skydome.html" },
-    { name: "Dactyl Clock", url: "https://standardgalactic.github.io/dactyl-clock.html" },
-//    { name: "Logic", url: "https://standardgalactic.github.io/logic.html" },
-    { name: "Snowglobe Reading", url: "https://standardgalactic.github.io/snowglobe-reading.html" },
-    { name: "Dvorak Converter", url: "https://standardgalactic.github.io/dvorak-converter.html" },
-//    { name: "Main Albums", url: "https://standardgalactic.github.io/main-albums.html" },
-// { name: "Unpublished Facebook Posts", url: "https://standardgalactic.github.io/timeline.html" },
-    { name: "Spherepop", url: "https://standardgalactic.github.io/spherepop/index.html" },
-];
-        const directPagesList = document.getElementById('direct-pages');
-        const mainRepoPagesList = document.getElementById('main-repo-pages');
-
-
-        function addLinks(list, links) {
-            links.forEach(link => {
-                const li = document.createElement('li');
-                li.innerHTML = `<a href="${link.url}" target="_blank">${link.name}</a>`;
-                list.appendChild(li);
-            });
+        
+        window.addEventListener('resize', () => { starCanvas.width = window.innerWidth; starCanvas.height = window.innerHeight; });
+        const search = document.getElementById('project-search');
+        const cards = Array.from(document.querySelectorAll('.grid li'));
+        function filterProjects() {
+            const query = search.value.trim().toLowerCase();
+            let count = 0;
+            cards.forEach(card => { card.hidden = !card.textContent.toLowerCase().includes(query); if (!card.hidden) count++; });
+            document.querySelectorAll('.directory-section').forEach(section => { section.hidden = !Array.from(section.querySelectorAll('li')).some(card => !card.hidden); });
+            document.getElementById('search-count').textContent = count + ' of ' + cards.length + ' listed pages';
         }
-
-        addLinks(directPagesList, directPages);
-        addLinks(mainRepoPagesList, mainRepoPages);
-
-        // Flicker effect for "The Rəd Pιll" button
-        document.addEventListener("DOMContentLoaded", function () {
-            let redPillButton = findRedPillButton();
-
-            if (redPillButton) {
-                setInterval(() => {
-                    redPillButton.classList.add('flicker-effect');
-                    setTimeout(() => redPillButton.classList.remove('flicker-effect'), 2500);
-                }, 20000);
-            }
-        });
-
-        function findRedPillButton() {
-            const links = document.querySelectorAll('#direct-pages a');
-            for (let link of links) {
-                if (link.textContent.trim() === "The Rəd Pιll") {
-                    return link;
-                }
-            }
-            return null;
-        }
-    </script>
+        search.addEventListener('input', filterProjects);
+        filterProjects();
+</script>
 </body>
 </html>
-
